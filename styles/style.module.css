@@ -1,45 +1,45 @@
-.home{
-  margin: 0 10%;
-  width: 80%;
+.home {
+  margin: 0 5%;
+  width: 90%;
   height: 100%;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
 }
 
-.container h1{
+.container h1 {
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0.1rem;
   padding: 1rem 0;
   text-align: center;
 }
 
-.container h2{
+.container h2 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0.1rem;
   padding: 1rem 0;
   text-align: center;
 }
 
-.home p{
+.home p {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.1rem;
 }
 
-.links{
+.links {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -47,18 +47,18 @@
   flex-wrap: wrap;
 }
 
-.home a{
+.home a {
   width: 48%;
   min-height: 6rem;
-  border: 1px solid rgba(255,255,255,.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0.5rem;
-  background-color: rgba(255,255,255,0.1);  
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
@@ -66,14 +66,14 @@
   position: relative;
 }
 
-.links a span{
+.links span {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.4);
   position: relative;
   left: 5%;
 }
 
-.driveembed{
+.driveembed {
   width: 100%;
   height: 100%;
   display: flex;
@@ -83,11 +83,22 @@
   flex-wrap: wrap;
 }
 
-.itsppdf{
+.itsppdf {
   width: 70%;
   height: 38rem;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    margin: 0 3%;
+    width: 94%;
+  }
+
+  .home a {
+    width: 100%;
+  }
 }

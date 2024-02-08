@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
 
         <link rel="icon" href="https://itc.gymkhana.iitb.ac.in/techgc/static/media/itclogo.9a070c01125ecad0b3be.png" />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} style={{backgroundColor:'black'}}>
         {/* Made by Deepak Silaych, visit https://www.deepaksilaych.tech */}
         {children}
       </body>

@@ -18,8 +18,8 @@ const CursorBackground = () => {
 
   const style = {
     position: 'fixed',
-    width: '300vw',
-    height: '300vw',
+    width: 'max(283vw, 283vh)',
+    height: 'max(283vw, 283vh)',
     background: 'radial-gradient(circle,rgb(28, 28, 128) 0%,  rgb(0, 0, 0) 15%)',
     borderRadius: '50%',
     pointerEvents: 'none',
