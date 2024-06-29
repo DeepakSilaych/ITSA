@@ -15,7 +15,7 @@ function itspleaderboard() {
                     <th>Team Name</th>
                     <th>Domain</th>
                     <th>Team Lead</th>
-                    <th>Updated Score</th>
+                    <th>Score</th>
                   </tr>
                 </thead>
                 <tbody>
