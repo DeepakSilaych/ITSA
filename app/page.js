@@ -9,26 +9,33 @@ const Home = () => {
       <div className={styles.home}>
   
         <div className={styles.links}>
-          <Link href="/sos">
-            <div>Summer of Science</div>
-            <span>by MnP Club</span>
-          </Link>
-  
-          <Link href="https://itc.gymkhana.iitb.ac.in/wncc/soc/">
-            <div>Season of Codes</div>
-            <span>by WnCC Club</span>
-          </Link>
-  
-          <Link href="/ksp">
-            <div>Krittika Summer Projects</div>
-            <span>by Krittika Club</span>
-          </Link>
-  
-          <Link href="/itsp">
-            <div>Institute Technical Summer Projects</div>
-            <span></span>
-          </Link>
-  
+          <div className={styles.links1}>
+            <Link href="/itspleaderboard">
+              <div>ITSP Leaderboard 2024</div>
+              <span>Review Meet 1</span>
+            </Link>
+          </div>
+          <div className={styles.links2}>
+            <Link href="/sos">
+              <div>Summer of Science</div>
+              <span>by MnP Club</span>
+            </Link>
+    
+            <Link href="https://itc.gymkhana.iitb.ac.in/wncc/soc/">
+              <div>Season of Codes</div>
+              <span>by WnCC Club</span>
+            </Link>
+    
+            <Link href="/ksp">
+              <div>Krittika Summer Projects</div>
+              <span>by Krittika Club</span>
+            </Link>
+    
+            <Link href="/itsp">
+              <div>Institute Technical Summer Projects</div>
+              <span></span>
+            </Link>
+          </div>
         </div>
         <p>
           Institute Technical Summer Activities aka ITSA is an annual program organized by ITC.

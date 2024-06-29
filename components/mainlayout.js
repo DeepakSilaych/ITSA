@@ -42,7 +42,7 @@ function MainLayout({ children }) {
         </main>
 
         <footer className={styles.footer}>
-          <p>&copy; 2024 ITSA | Created by Web Team with <a href="https://www.deepaksilaych.tech/">🤍</a></p>
+          <p>&copy; 2024 ITSA |  Created by Web Team with <a href="https://www.deepaksilaych.tech/">🤍</a></p>
         </footer>
       </div>
     </div>

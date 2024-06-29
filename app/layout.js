@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="icon" href="https://itc.gymkhana.iitb.ac.in/techgc/static/media/itclogo.9a070c01125ecad0b3be.png" />
+        <link rel="icon" href="./logo.png" />
       </head>
       <body className={inter.className} style={{backgroundColor:'black'}}>
         {/* Made by Deepak Silaych, visit https://www.deepaksilaych.tech */}

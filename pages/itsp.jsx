@@ -3,9 +3,6 @@ import React from 'react'
 import styles from '@/styles/style.module.css'
 import Head from 'next/head'
 
-const pdfUrl = '../components/itsp23.pdf'
-
-
 function ITSP() {
   return (
     <MainLayout>
