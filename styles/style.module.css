@@ -92,6 +92,49 @@
   align-items: center;
 }
 
+.leaderboard h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.1rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.leaderboard th {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.leaderboard td {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.leaderboard tr{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+  
+.leaderboard tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .driveembed {
   width: 100%;
   height: 100%;
@@ -120,4 +163,27 @@
   .home a {
     width: 100%;
   }
+
+  .links2 {
+    flex-direction: column;
+  }
+
+  .leaderboard table {
+    width: 100%;
+  }
+
+  .leaderboard th {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+
+  .leaderboard td {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+
+  .leaderboard h1 {
+    font-size: 1.2rem;
+  }
 }
+

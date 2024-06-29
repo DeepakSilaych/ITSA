@@ -5,6 +5,7 @@ import styles from './page.module.css';
 import CursorBackground from '@/components/mouse.js';
 import { Inter } from "next/font/google";
 import Head from 'next/head';
+import Link from 'next/link';
 
 const metadata = {
   title: "ITSA 2024 | Institute Technical Summer Activities",
@@ -34,7 +35,7 @@ function MainLayout({ children }) {
           <a href="https://itc.gymkhana.iitb.ac.in/">
             <img src="/logo.png" alt="ITC Logo" />
           </a>
-          <h1>Institute Technical Summer Activities</h1>
+          <Link href="/"> <h1>Institute Technical Summer Activities</h1> </Link>
         </header>
 
         <main className={styles.main}>
