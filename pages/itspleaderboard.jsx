@@ -90,12 +90,6 @@ const data = [
     "updatedScore": 75.5
   },
   {
-    "teamName": "Skunkworks",
-    "domain": "AERO",
-    "teamLead": "Johan Sam Biju",
-    "updatedScore": 0
-  },
-  {
     "teamName": "Quantum",
     "domain": "HARDWARE",
     "teamLead": "Aarya Kshirsagar",
