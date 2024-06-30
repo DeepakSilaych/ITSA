@@ -19,13 +19,13 @@ function itspleaderboard() {
                   </tr>
                 </thead>
                 <tbody>
-                  {data.sort((a, b) => b.updatedScore - a.updatedScore).map((team, index) => (
+                  {data.sort((a, b) => b.score - a.score).map((team, index) => (
                     <tr key={index}>
                       <td>{index + 1}</td>
-                      <td>{team.teamName}</td>
+                      <td>{team.name}</td>
                       <td>{team.domain}</td>
                       <td>{team.teamLead}</td>
-                      <td>{team.updatedScore}</td>
+                      <td>{team.score.toFixed(0)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -42,231 +42,231 @@ export default itspleaderboard
 
 const data = [
   {
-    "teamName": "Dronachaarya",
-    "domain": "AERO",
-    "teamLead": "Krupa Pai",
-    "updatedScore": 74.5
+      "name": "Dronachaarya",
+      "domain": "AERO",
+      "teamLead": "Krupa Pai",
+      "score": 67.5
   },
   {
-    "teamName": "AirBenders",
-    "domain": "AERO",
-    "teamLead": "Jeet Gurbani",
-    "updatedScore": 57.5
+      "name": "AirBenders",
+      "domain": "AERO",
+      "teamLead": "Jeet Gurbani",
+      "score": 50.5
   },
   {
-    "teamName": "AvianEye",
-    "domain": "AERO",
-    "teamLead": "Devyani Nandagaoli",
-    "updatedScore": 0
+      "name": "AvianEye",
+      "domain": "AERO",
+      "teamLead": "Devyani Nandagaoli",
+      "score": 0
   },
   {
-    "teamName": "Vampire",
-    "domain": "AERO",
-    "teamLead": "Ayush Bhaskar",
-    "updatedScore": 58
+      "name": "Vampire",
+      "domain": "AERO",
+      "teamLead": "Ayush Bhaskar",
+      "score": 51
   },
   {
-    "teamName": "AirEagle",
-    "domain": "AERO",
-    "teamLead": "Param Aghera",
-    "updatedScore": 61.5
+      "name": "AirEagle",
+      "domain": "AERO",
+      "teamLead": "Param Aghera",
+      "score": 55.5
   },
   {
-    "teamName": "Udta Kabootar",
-    "domain": "AERO MECHATRONICS",
-    "teamLead": "Aabha Lahurikar",
-    "updatedScore": 61
+      "name": "Udta Kabootar",
+      "domain": "AERO MECHATRONICS",
+      "teamLead": "Aabha Lahurikar",
+      "score": 55
   },
   {
-    "teamName": "Beacon",
-    "domain": "AERO/SPACE",
-    "teamLead": "Arkadeep Saha",
-    "updatedScore": 80.5
+      "name": "Beacon",
+      "domain": "AERO/SPACE",
+      "teamLead": "Arkadeep Saha",
+      "score": 73.5
   },
   {
-    "teamName": "Goddard",
-    "domain": "SPACE/AERO",
-    "teamLead": "Om Nunase",
-    "updatedScore": 75.5
+      "name": "Goddard",
+      "domain": "SPACE/AERO",
+      "teamLead": "Om Nunase",
+      "score": 70
   },
   {
-    "teamName": "Quantum",
-    "domain": "HARDWARE",
-    "teamLead": "Aarya Kshirsagar",
-    "updatedScore": 72
+      "name": "Quantum",
+      "domain": "HARDWARE",
+      "teamLead": "Aarya Kshirsagar",
+      "score": 71.525
   },
   {
-    "teamName": "Elec Serpent",
-    "domain": "HARDWARE",
-    "teamLead": "Khushi Chandak",
-    "updatedScore": 50
+      "name": "Elec Serpent",
+      "domain": "HARDWARE",
+      "teamLead": "Khushi Chandak",
+      "score": 49.525
   },
   {
-    "teamName": "ROBarmOTICS",
-    "domain": "HARDWARE",
-    "teamLead": "Madhav Agrawal",
-    "updatedScore": 84
+      "name": "ROBarmOTICS",
+      "domain": "HARDWARE",
+      "teamLead": "Madhav Agrawal",
+      "score": 83.525
   },
   {
-    "teamName": "AutoNote",
-    "domain": "HARDWARE",
-    "teamLead": "Aniket Gupta",
-    "updatedScore": 77
+      "name": "AutoNote",
+      "domain": "HARDWARE",
+      "teamLead": "Aniket Gupta",
+      "score": 76.525
   },
   {
-    "teamName": "piyushkedost",
-    "domain": "HARDWARE",
-    "teamLead": "Siddhant Sapkal",
-    "updatedScore": 6
+      "name": "piyushkedost",
+      "domain": "HARDWARE",
+      "teamLead": "Siddhant Sapkal",
+      "score": 0
   },
   {
-    "teamName": "EVIBE",
-    "domain": "HARDWARE IOT",
-    "teamLead": "Manglam Kartik",
-    "updatedScore": 70
+      "name": "EVIBE",
+      "domain": "HARDWARE IOT",
+      "teamLead": "Manglam Kartik",
+      "score": 69.525
   },
   {
-    "teamName": "FitPerk",
-    "domain": "HARDWARE SPORTS",
-    "teamLead": "Shubham Talwaria",
-    "updatedScore": 65
+      "name": "FitPerk",
+      "domain": "HARDWARE SPORTS",
+      "teamLead": "Shubham Talwaria",
+      "score": 64.525
   },
   {
-    "teamName": "Tinkerers",
-    "domain": "HEALTH HARDWARE",
-    "teamLead": "Avishkar Bahirwar",
-    "updatedScore": 75
+      "name": "Tinkerers",
+      "domain": "HEALTH HARDWARE",
+      "teamLead": "Avishkar Bahirwar",
+      "score": 74.525
   },
   {
-    "teamName": "Mirrors",
-    "domain": "HARDWARE",
-    "teamLead": "Anshu Mishra",
-    "updatedScore": 60
+      "name": "Mirrors",
+      "domain": "HARDWARE",
+      "teamLead": "Anshu Mishra",
+      "score": 59.525
   },
   {
-    "teamName": "MORENO PERITO",
-    "domain": "SUSTAINABILITY",
-    "teamLead": "Ishan Yadu",
-    "updatedScore": 64
+      "name": "MORENO PERITO",
+      "domain": "SUSTAINIBILITY",
+      "teamLead": "Ishan Yadu",
+      "score": 55.989
   },
   {
-    "teamName": "Team Hope",
-    "domain": "SUSTAINABILITY",
-    "teamLead": "Anuj Patel",
-    "updatedScore": 78
+      "name": "Team Hope",
+      "domain": "SUSTAINIBILITY",
+      "teamLead": "Anuj Patel",
+      "score": 69.989
   },
   {
-    "teamName": "OPDex",
-    "domain": "HEALTHCARE",
-    "teamLead": "Tanushree Singh",
-    "updatedScore": 70
+      "name": "OPDex",
+      "domain": "HEALTHCARE",
+      "teamLead": "Tanushree Singh",
+      "score": 61.489
   },
   {
-    "teamName": "Team Alzolve",
-    "domain": "HEALTHCARE",
-    "teamLead": "Manya Shah",
-    "updatedScore": 92
+      "name": "Team Alzolve",
+      "domain": "HEALTHCARE",
+      "teamLead": "Manya Shah",
+      "score": 83.489
   },
   {
-    "teamName": "EcoGenius",
-    "domain": "IOT HARDWARE",
-    "teamLead": "Astha Sahu",
-    "updatedScore": 90
+      "name": "EcoGenius",
+      "domain": "IOT HARDWARE",
+      "teamLead": "Astha Sahu",
+      "score": 81.989
   },
   {
-    "teamName": "The Night's Watch",
-    "domain": "IOT HARDWARE",
-    "teamLead": "Soham Dasgupta",
-    "updatedScore": 80
+      "name": "The Night's Watch",
+      "domain": "IOT HARDWARE",
+      "teamLead": "Soham Dasgupta",
+      "score": 71.989
   },
   {
-    "teamName": "Rolling Rascals",
-    "domain": "MECHATRONICS",
-    "teamLead": "Ayush Kumar",
-    "updatedScore": 84
+      "name": "Rolling Rascals",
+      "domain": "MECHATRONICS",
+      "teamLead": "Ayush Kumar",
+      "score": 75.489
   },
   {
-    "teamName": "Varuna",
-    "domain": "MECHATRONICS",
-    "teamLead": "Sangeetha Durgam",
-    "updatedScore": 67
+      "name": "Varuna",
+      "domain": "MECHATRONICS",
+      "teamLead": "Sangeetha Durgam",
+      "score": 58.989
   },
   {
-    "teamName": "KeedaBot",
-    "domain": "MECHATRONICS",
-    "teamLead": "Manan Mehta",
-    "updatedScore": 66
+      "name": "KeedaBot",
+      "domain": "MECHATRONICS",
+      "teamLead": "Manan Mehta",
+      "score": 57.989
   },
   {
-    "teamName": "Identifier",
-    "domain": "AI & ML",
-    "teamLead": "Sahil Kukreja",
-    "updatedScore": 80
+      "name": "Identifier",
+      "domain": "AI & ML",
+      "teamLead": "Sahil Kukreja",
+      "score": 79.5167
   },
   {
-    "teamName": "SAPP.printz",
-    "domain": "AI & ML",
-    "teamLead": "Shresth Keshari",
-    "updatedScore": 67
+      "name": "SAPP.printz",
+      "domain": "AI & ML",
+      "teamLead": "Shresth Keshari",
+      "score": 66.5167
   },
   {
-    "teamName": "Shayona",
-    "domain": "AI & ML",
-    "teamLead": "Tanmay Mandaliya",
-    "updatedScore": 75
+      "name": "Shayona",
+      "domain": "AI & ML",
+      "teamLead": "Tanmay Mandaliya",
+      "score": 74.5167
   },
   {
-    "teamName": "Git Gud",
-    "domain": "WEB DEV",
-    "teamLead": "Anasmit Mitra",
-    "updatedScore": 76
+      "name": "Git Gud",
+      "domain": "WEB DEV",
+      "teamLead": "Anasmit Mitra",
+      "score": 75.5167
   },
   {
-    "teamName": "ByteMeBaby",
-    "domain": "AI & ML",
-    "teamLead": "Gulshan Kumar",
-    "updatedScore": 70
+      "name": "ByteMeBaby",
+      "domain": "AI & ML",
+      "teamLead": "Gulshan Kumar",
+      "score": 69.5167
   },
   {
-    "teamName": "Avengers",
-    "domain": "AI & ML",
-    "teamLead": "Rajnikant Semar",
-    "updatedScore": 56
+      "name": "Avengers",
+      "domain": "AI & ML",
+      "teamLead": "Rajnikant Semar",
+      "score": 55.5167
   },
   {
-    "teamName": "NoName",
-    "domain": "AI & ML",
-    "teamLead": "Ranbir Sinha",
-    "updatedScore": 61
+      "name": "NoName",
+      "domain": "AI & ML",
+      "teamLead": "Ranbir Sinha",
+      "score": 60.5167
   },
   {
-    "teamName": "InstiVerse",
-    "domain": "AI & ML",
-    "teamLead": "Arush Narayan Srivastav",
-    "updatedScore": 79
+      "name": "InstiVerse",
+      "domain": "AI & ML",
+      "teamLead": "Arush Narayan Srivastav",
+      "score": 70
   },
   {
-    "teamName": "Cropto Crafters",
-    "domain": "Web3",
-    "teamLead": "Sobhin",
-    "updatedScore": 81
+      "name": "Cropto Crafters",
+      "domain": "Web3",
+      "teamLead": "Sobhin",
+      "score": 80.5167
   },
   {
-    "teamName": "The DAM Dynamos",
-    "domain": "AI & ML",
-    "teamLead": "Sujal Kumar Sahoo",
-    "updatedScore": 46
+      "name": "The DAM Dynamos",
+      "domain": "AI & ML",
+      "teamLead": "Sujal Kumar Sahoo",
+      "score": 45.5167
   },
   {
-    "teamName": "Neural Brushstrokes",
-    "domain": "AI & ML",
-    "teamLead": "Shubham Ingale",
-    "updatedScore": 86
+      "name": "Neural Brushstrokes",
+      "domain": "AI & ML",
+      "teamLead": "Shubham Ingale",
+      "score": 85.5167
   },
   {
-    "teamName": "ChessMasters",
-    "domain": "AI & ML",
-    "teamLead": "Parth Rasal",
-    "updatedScore": 89
+      "name": "ChessMasters",
+      "domain": "AI & ML",
+      "teamLead": "Parth Rasal",
+      "score": 88.5167
   }
 ]
