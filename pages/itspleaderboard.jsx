@@ -45,13 +45,13 @@ const data = [
     "teamName": "Dronachaarya",
     "domain": "AERO",
     "teamLead": "Krupa Pai",
-    "updatedScore": 75
+    "updatedScore": 74.5
   },
   {
     "teamName": "AirBenders",
     "domain": "AERO",
     "teamLead": "Jeet Gurbani",
-    "updatedScore": 58
+    "updatedScore": 57.5
   },
   {
     "teamName": "AvianEye",
@@ -63,13 +63,13 @@ const data = [
     "teamName": "Vampire",
     "domain": "AERO",
     "teamLead": "Ayush Bhaskar",
-    "updatedScore": 18
+    "updatedScore": 58
   },
   {
     "teamName": "AirEagle",
     "domain": "AERO",
     "teamLead": "Param Aghera",
-    "updatedScore": 42
+    "updatedScore": 61.5
   },
   {
     "teamName": "Udta Kabootar",
@@ -81,13 +81,13 @@ const data = [
     "teamName": "Beacon",
     "domain": "AERO/SPACE",
     "teamLead": "Arkadeep Saha",
-    "updatedScore": 81
+    "updatedScore": 80.5
   },
   {
     "teamName": "Goddard",
     "domain": "SPACE/AERO",
     "teamLead": "Om Nunase",
-    "updatedScore": 78
+    "updatedScore": 75.5
   },
   {
     "teamName": "Skunkworks",
